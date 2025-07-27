@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
   <title>VLC.ID — Вхід</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
-  <script type="module" src="auth.js"></script>
+  <script type="module" src="firebase-auth.js"></script>
 </head>
 <body oncontextmenu="return false" oncopy="return false" onselectstart="return false">
   <h1>🔒 Вхід у VLC.ID</h1>
-  <input type="email" id="email" placeholder="Email">
-  <input type="password" id="password" placeholder="Пароль">
+  <input type="email" id="email" placeholder="Email"><br>
+  <input type="password" id="password" placeholder="Пароль"><br>
   <button onclick="login()">Увійти</button>
 </body>
 </html>
