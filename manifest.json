@@ -1,14 +1,19 @@
 {
   "name": "VLC.ID",
-  "short_name": "VLC",
-  "start_url": "index.html",
+  "short_name": "VLC.ID",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#0057B7",
+  "theme_color": "#1976d2",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
